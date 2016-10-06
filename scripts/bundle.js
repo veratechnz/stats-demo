@@ -9754,7 +9754,7 @@ module.exports = exports["default"];
 //jQuery
 $ = jQuery = require('jquery');
 
-//slideOut Nav
+//SlideOut Nav
 var Slideout = require('slideout');
 
 //Materialize js
@@ -9821,10 +9821,14 @@ Standards: - */
 		}
 
 		UI.init = function(){
+			//Side Black Menu
+			$('#leftNavigation').ssdVerticalNavigation();
+
+			//Close Button For Mobile Menu
 			$('#closer').click(function(event){
 				event.preventDefault();
 				$('.button-collapse').sideNav('hide');
-			});
+			});	
 		}
 
 	// Monitor Screen size for new menu breakpoint:
