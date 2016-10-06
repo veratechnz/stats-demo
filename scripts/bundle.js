@@ -9779,6 +9779,7 @@ Standards: - */
 		UI.createNS("UI.init");
 
 		UI.menus = function(){
+
 	 		//Check window size and run internal functions. 
 	 		var checkSize = $(window).width();
 	 		var oldNav = 'leftNavContainer';
@@ -9821,9 +9822,6 @@ Standards: - */
 		}
 
 		UI.init = function(){
-			//Side Black Menu
-			$('#leftNavigation').ssdVerticalNavigation();
-
 			//Close Button For Mobile Menu
 			$('#closer').click(function(event){
 				event.preventDefault();
