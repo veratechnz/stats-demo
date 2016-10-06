@@ -20,49 +20,58 @@
     <div id="contentLeft">
 
       <ul id="leftNavigation">
-          <li class="main-logo"><a href="">LOGO</a></li>
-          <li><a href=""><i class="fa fa-angle-right leftNavIcon"></i>Searching</a></li>
+          <li class="main-logo">LOGO HERE</li>
+          <li><a href="">Home <i class="fa fa-angle-down leftNavIcon"></i></a></li>
           <li class="active">
-              <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> About us</a>
+              <a href="#">My dashboards <i class="fa fa-angle-down leftNavIcon"></i></a>
               <ul>
                   <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Our History</a>
+                      <a href="#">Our history <i class="fa fa-angle-down leftNavIcon"></i></a>
                   </li>
                   <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Our Team</a>
+                      <a href="#"> Our team <i class="fa fa-angle-down leftNavIcon"></i></a>
                   </li>
               </ul>
           </li>
           <li>
-              <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Products</a>
+              <a href="#">Data by topic <i class="fa fa-angle-down leftNavIcon"></i></a>
               <ul>
                   <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Garden</a>
+                      <a href="#"> Garden <i class="fa fa-angle-down leftNavIcon"></i></a>
                   </li>
                   <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Office</a>
+                      <a href="#"> Office <i class="fa fa-angle-down leftNavIcon"></i></a>
                   </li>
                   <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Home</a>
+                      <a href="#"> Home <i class="fa fa-angle-down leftNavIcon"></i></a>
                   </li>
               </ul>
           </li>
           <li>
-              <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Services</a>
-              <ul>
-                  <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Garden</a>
-                  </li>
-                  <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Office</a>
-                  </li>
-                  <li>
-                      <a href="#"><i class="fa fa-angle-right leftNavIcon"></i> Home</a>
-                  </li>
-              </ul>
+              <a href="#"> Data by place <i class="fa fa-angle-down leftNavIcon"></i></a>
           </li>
-          <li class="clickable">
-              <a href="#"><i class="fa fa-envelope-o leftNavIcon"></i> Contact us</a>
+          <li>
+              <a href="#"> Indicators <i class="fa fa-angle-down leftNavIcon"></i></a>
+          </li>
+          <li>
+              <a href="#"> Data for Maori <i class="fa fa-angle-down leftNavIcon"></i></a>
+          </li>
+          <li class="split-marker">
+              <a href="#"> Data via API <i class="fa fa-angle-down leftNavIcon"></i></a>
+          </li>
+          <li>
+              <a href="#"> Survey participants <i class="fa fa-angle-down leftNavIcon"></i></a>
+          </li>
+          <li>
+              <a href="#"> Contact us<i class="fa fa-angle-down leftNavIcon"></i></a>
+          </li>
+          <li>
+              <a href="#"> Privacy<i class="fa fa-angle-down leftNavIcon"></i></a>
+          </li>
+          <li class="social-menu">
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-linkedin-square"></i>
           </li>
 
       </ul>
@@ -72,39 +81,34 @@
 
   <!-- *** All Nav Content Ends-->
     <div class="nav-horizontal" id="navHorizontal">
-      <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-medium waves-effect waves-light red">
-
+      <a href="#" data-activates="slide-out" class="button-collapse btn-floating mob-menu btn-medium waves-effect waves-light red" id="mobMenu">
           <i class="material-icons">menu</i>
-
       </a>
-
-      <div class="card-action">
-
-        <!-- Horizontal Menu Action Buttons Start -->
-        <div class="fixed-action-btn horizontal click-to-toggle active" style="position: absolute; right: 24px;">
-          <a class="btn-floating btn-medium ">
-            <i class="material-icons">more_horiz</i>
-          </a>
-          <ul>
-            <li><a class="btn-floating red" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i class="material-icons">insert_chart</i></a></li>
-            <li><a class="btn-floating yellow darken-1" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i class="material-icons">format_quote</i></a></li>
-            <li><a class="btn-floating blue" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i class="material-icons">publish</i></a></li>
-            <li><a class="btn-floating purple" style="transform: scaleY(1) scaleX(1) translateY(0px) translateX(0px); opacity: 1;"><i class="material-icons">attach_file</i></a></li>
-          </ul>
-        </div>
-        <!-- Horizontal Menu Action Buttons End!!! -->
-              
+      <a href="" class="btn-floating btn-medium waves-effect waves-light red" id="search">
+        <i class="material-icons">search</i>
+      </a>
+      <!-- Horizontal Menu Action Buttons Start -->
+      <div class="fixed-action-btn horizontal click-to-toggle">
+        <a class="btn-floating btn-medium green">
+          <i class="material-icons">more_horiz</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="btn-floating purple"><i class="material-icons">publish</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
       </div>
+      <!-- Horizontal Menu Action Buttons End!!! -->
     </div>
 
   <!-- Side Menu Nav Begins -->
     <ul id="slide-out" class="side-nav">
-      <li>
-        <div class="userView">
-          <a href="#!name"><span class="white-text name">John Doe</span></a>
-          <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-        </div>
-      </li>
+      <div class="mobile-close">
+        <a href="#" class="mobile-close">
+            <i class="material-icons closer" id="closer">close</i>
+        </a>
+      </div>
       <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
       <li><a href="#!">Second Link</a></li>
       <li><div class="divider"></div></li>
